@@ -59,3 +59,24 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "vagrant",     "3.2.0"
+github "virtualbox",  "1.0.13"
+github "textmate",    "1.1.0"
+github "packer",      "1.3.0"
+github "redis",       "2.1.0"
+github "chrome",      "1.1.2"
+github "elasticsearch", "2.3.0"
+github "mysql",       "1.2.0"
+github "java",        "1.7.1"
+github "vim",         "1.0.5"
+github "osx",         "2.7.1"
+github "iterm2",      "1.2.2"
+github "docker",      "0.6.0"
+
+mod "python",
+    :git => "git@github.com:cloudnautique/puppet-python.git",
+    :ref => "change_env_script_path"
+
+mod "bash",
+    :git => "git@github.com:boxen/puppet-bash.git",
+    :ref => "5ac954981706cea513b8273d831937158b2074df"

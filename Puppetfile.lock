@@ -1,12 +1,41 @@
+GIT
+  remote: git@github.com:boxen/puppet-bash.git
+  ref: 5ac954981706cea513b8273d831937158b2074df
+  sha: 5ac954981706cea513b8273d831937158b2074df
+  specs:
+    bash (0.0.1)
+
+GIT
+  remote: git@github.com:cloudnautique/puppet-python.git
+  ref: change_env_script_path
+  sha: 138b8b1703cd83ce2bd290a40cfcbda65351631b
+  specs:
+    python (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.6.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-elasticsearch
+  specs:
+    elasticsearch (2.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -39,6 +68,21 @@ GITHUBTARBALL
     hub (1.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.2.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.7.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -54,6 +98,16 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-packer
+  specs:
+    packer (1.3.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -62,6 +116,11 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -77,6 +136,26 @@ GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-textmate
+  specs:
+    textmate (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -99,8 +178,12 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  bash (>= 0)
   boxen (= 3.7.0)
+  chrome (= 1.1.2)
   dnsmasq (= 2.0.0)
+  docker (= 0.6.0)
+  elasticsearch (= 2.3.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.5.0)
@@ -108,14 +191,26 @@ DEPENDENCIES
   homebrew (= 1.9.5)
   hub (= 1.3.0)
   inifile (= 1.1.1)
+  iterm2 (= 1.2.2)
+  java (= 1.7.1)
   module_data (= 0.0.3)
+  mysql (= 1.2.0)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
+  osx (= 2.7.1)
+  packer (= 1.3.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  python (>= 0)
+  redis (= 2.1.0)
   repository (= 2.3.0)
   ruby (= 8.1.4)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  textmate (= 1.1.0)
+  vagrant (= 3.2.0)
+  vim (= 1.0.5)
+  virtualbox (= 1.0.13)
   xquartz (= 1.2.1)
+

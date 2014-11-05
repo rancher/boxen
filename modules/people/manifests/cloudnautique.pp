@@ -1,13 +1,14 @@
 class people::cloudnautique {
 
-  include redis
+  include bash
   include chrome
+  include docker
   include elasticsearch
   include mysql
+  include python
+  include redis
   include vim
   include virtualbox
-  include python
-  include bash
 
   include python::virtualenvwrapper
   include bash::completion
@@ -31,7 +32,7 @@ class people::cloudnautique {
   }
 
   class { 'nodejs::global':
-    version => 'v0.10.26'
+    version => 'v0.10.29'
   }
 
   vim::bundle {
@@ -40,6 +41,7 @@ class people::cloudnautique {
         'kien/ctrlp.vim',
         'godlygeek/tabular',
         'rodjek/vim-puppet',
+        'faith/vim-go',
     ]:
   }
 }

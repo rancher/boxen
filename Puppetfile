@@ -55,7 +55,7 @@ github "repository",  "2.3.0"
 github "ruby",        "8.1.4"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
-github "xquartz",     "1.2.1"
+github "xquartz",     "1.2.2", :repo => "cjellick/puppet-xquartz"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -72,6 +72,7 @@ github "vim",         "1.0.5"
 github "osx",         "2.7.1"
 github "iterm2",      "1.2.2"
 github "docker",      "0.6.1"
+github "macvim",      "1.0.0"
 
 mod "python",
     :git => "git@github.com:cloudnautique/puppet-python.git",

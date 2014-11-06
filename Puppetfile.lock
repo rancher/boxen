@@ -78,6 +78,11 @@ GITHUBTARBALL
     java (1.7.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
     mysql (1.2.0)
@@ -158,9 +163,9 @@ GITHUBTARBALL
     virtualbox (1.0.13)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
+  remote: cjellick/puppet-xquartz
   specs:
-    xquartz (1.2.1)
+    xquartz (1.2.2)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -193,6 +198,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.2.2)
   java (= 1.7.1)
+  macvim (= 1.0.0)
   module_data (= 0.0.3)
   mysql (= 1.2.0)
   nginx (= 1.4.3)
@@ -212,5 +218,5 @@ DEPENDENCIES
   vagrant (= 3.2.0)
   vim (= 1.0.5)
   virtualbox (= 1.0.13)
-  xquartz (= 1.2.1)
+  xquartz (= 1.2.2)
 

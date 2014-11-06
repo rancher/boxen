@@ -30,7 +30,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-docker
   specs:
-    docker (0.6.0)
+    docker (0.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
@@ -187,7 +187,8 @@ DEPENDENCIES
   boxen (= 3.7.0)
   dnsmasq (= 2.0.1)
   chrome (= 1.1.2)
-  docker (= 0.6.0)
+  dnsmasq (= 2.0.0)
+  docker (= 0.6.1)
   elasticsearch (= 2.3.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)

@@ -71,7 +71,7 @@ github "java",        "1.7.1"
 github "vim",         "1.0.5"
 github "osx",         "2.7.1"
 github "iterm2",      "1.2.2"
-github "docker",      "0.6.0"
+github "docker",      "0.6.1"
 
 mod "python",
     :git => "git@github.com:cloudnautique/puppet-python.git",

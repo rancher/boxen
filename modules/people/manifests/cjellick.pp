@@ -1,5 +1,10 @@
 class people::cjellick {
 
+  class {'virtualbox':
+    version     => '4.3.18',
+    patch_level => '96516',
+  }
+
   include bash
   include chrome
   include docker
@@ -7,14 +12,11 @@ class people::cjellick {
   include python
   include macvim
 
+  include python::virtualenvwrapper
   include bash::completion
   include iterm2::stable
   include iterm2::colors::solarized_light
   include iterm2::colors::solarized_dark
-
-  class {'virtualbox':
-    version     => '4.3.18',
-    patch_level => '96516',
 
   class {'vagrant':
     version    => '1.6.5',

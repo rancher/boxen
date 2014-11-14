@@ -163,9 +163,9 @@ GITHUBTARBALL
     virtualbox (1.0.13)
 
 GITHUBTARBALL
-  remote: cjellick/puppet-xquartz
+  remote: boxen/puppet-xquartz
   specs:
-    xquartz (1.2.2)
+    xquartz (1.2.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -219,5 +219,5 @@ DEPENDENCIES
   vagrant (= 3.2.0)
   vim (= 1.0.5)
   virtualbox (= 1.0.13)
-  xquartz (= 1.2.2)
+  xquartz (= 1.2.1)
 

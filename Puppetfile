@@ -62,7 +62,6 @@ github "xquartz",     "1.2.1"
 github "vagrant",     "3.2.0"
 github "virtualbox",  "1.0.13"
 github "textmate",    "1.1.0"
-github "packer",      "1.3.0"
 github "redis",       "2.1.0"
 github "chrome",      "1.1.2"
 github "elasticsearch", "2.3.0"
@@ -73,6 +72,8 @@ github "osx",         "2.7.1"
 github "iterm2",      "1.2.2"
 github "docker",      "0.6.1"
 github "macvim",      "1.0.0"
+
+github "packer", "1.3.1", :repo => "cloudnautique/puppet-packer"
 
 mod "python",
     :git => "git@github.com:cloudnautique/puppet-python.git",

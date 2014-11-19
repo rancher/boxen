@@ -7,8 +7,8 @@ class people::cloudnautique {
   include mysql
   include python
   include redis
-  include vim
   include virtualbox
+  include macvim
 
   include python::virtualenvwrapper
   include bash::completion
@@ -18,7 +18,7 @@ class people::cloudnautique {
 
 
   class {'packer':
-    version => '0.7.1'
+    version => '0.7.2'
   }
 
   class {'vagrant':
@@ -41,7 +41,7 @@ class people::cloudnautique {
         'kien/ctrlp.vim',
         'godlygeek/tabular',
         'rodjek/vim-puppet',
-        'faith/vim-go',
+        'fatih/vim-go',
     ]:
   }
 }

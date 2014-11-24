@@ -74,6 +74,7 @@ github "macvim",      "1.0.0"
 github "docker",      "0.6.1"
 
 github "packer", "1.3.1", :repo => "cloudnautique/puppet-packer"
+github "terraform", "0.1.2", :repo => "cloudnautique/puppet-terraform"
 
 mod "python",
     :git => "git@github.com:cloudnautique/puppet-python.git",

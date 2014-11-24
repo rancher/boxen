@@ -21,6 +21,10 @@ class people::cloudnautique {
     version => '0.7.2'
   }
 
+  class {'terraform':
+    version => '0.3.1'
+  }
+
   class {'vagrant':
     version    => '1.6.5',
     completion => true,

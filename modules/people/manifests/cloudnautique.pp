@@ -18,15 +18,15 @@ class people::cloudnautique {
 
 
   class {'packer':
-    version => '0.7.2'
+    version => '0.7.5'
   }
 
   class {'terraform':
-    version => '0.3.1'
+    version => '0.3.5'
   }
 
   class {'vagrant':
-    version    => '1.6.5',
+    version    => '1.7.1',
     completion => true,
   }
 

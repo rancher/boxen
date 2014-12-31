@@ -71,7 +71,7 @@ github "vim",         "1.0.5"
 github "osx",         "2.7.1"
 github "iterm2",      "1.2.2"
 github "macvim",      "1.0.0"
-github "docker",      "0.7.0"
+github "docker",      "0.8.0"
 
 github "packer", "1.3.1", :repo => "cloudnautique/puppet-packer"
 github "terraform", "0.1.2", :repo => "cloudnautique/puppet-terraform"
